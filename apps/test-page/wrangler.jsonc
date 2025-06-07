@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "test-page",
+  "main": ".svelte-kit/cloudflare/_worker.js",
+  "compatibility_date": "2025-06-07",
+  "routes": [
+    {
+      "pattern": "test-page.produde.fyi/*",
+      "zone_name": "produde.fyi"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
