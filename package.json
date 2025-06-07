@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"turbo": "^2.5.4"
+	},
+	"packageManager": "pnpm@9.15.3+sha1.120e76442c589bb9a3267dbbefa5658c9943fcae",
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	}
+}
